@@ -5,16 +5,14 @@ df = pd.read_csv("recipess.csv")
 
 # Keep only useful columns and print randoms
 df = df[['recipe_name', 'ingredients', 'directions', 'rating', 'cuisine_path']]
-print(df.head())
+
 
 # Convert ingredients into clean lists
 df['ingredients_list'] = df['ingredients'].str.lower() \
                                          .str.replace('[^a-zA-Z, ]','', regex=True) \
                                          .str.split(", ")
 
-# Show example
-print(df[['recipe_name', 'ingredients_list']].head())
- 
+
 #creating function for word matching
 def find_recipes(user_ingredients, top_n=5):
     user_ingredients = [i.lower().strip() for i in user_ingredients]
