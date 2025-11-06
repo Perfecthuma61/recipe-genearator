@@ -17,27 +17,27 @@ An intelligent and user-friendly system that suggests recipes based on the ingre
 
 ## 💡 About the Project
 
-[cite_start]In a world where online recipes are abundant but often require specific ingredients, this Recipe Generator aims to bridge the gap between digital culinary data and real-world kitchen limitations. [cite: 58]
+In a world where online recipes are abundant but often require specific ingredients, this Recipe Generator aims to bridge the gap between digital culinary data and real-world kitchen limitations.
 
-[cite_start]The system takes user input in the form of available ingredients and dynamically recommends dishes that can be prepared with those items. [cite: 49]
+The system takes user input in the form of available ingredients and dynamically recommends dishes that can be prepared with those items.
 
-[cite_start]This project was developed by **Bharath JR, Darshan L, Monik, and Rithish** as a part of their **B.Tech CSE AIML** program at **Rai Technology University** for their Machine Learning subject. [cite: 5, 6, 7, 8, 9, 10, 16]
+This project was developed by **Bharath JR, Darshan L, Monik, and Rithish** as a part of their **B.Tech CSE AIML** program at **Rai Technology University** for their Machine Learning subject.
 
 ---
 
 ## ✨ Key Features
 
-[cite_start]**Interactive Ingredient Matching:** The system dynamically asks for ingredients a user has and recommends recipes based on them. [cite: 49, 73]
+**Interactive Ingredient Matching:** The system dynamically asks for ingredients a user has and recommends recipes based on them.
 
-[cite_start]**Intelligent Suggestions:** It computes a matching score for each recipe, prioritizing those with the highest ingredient overlap. [cite: 52]
+**Intelligent Suggestions:** It computes a matching score for each recipe, prioritizing those with the highest ingredient overlap.
 
-[cite_start]**Fuzzy Matching:** It can handle variations in ingredient names and typos through techniques like fuzzy matching. [cite: 51, 275]
+**Fuzzy Matching:** It can handle variations in ingredient names and typos through techniques like fuzzy matching.
 
-[cite_start]**Detailed Recipe Information:** Output includes recipe name, cuisine type, rating, ingredients, and step-by-step directions. [cite: 53]
+**Detailed Recipe Information:** Output includes recipe name, cuisine type, rating, ingredients, and step-by-step directions.
 
-[cite_start]**Resource Efficiency:** Helps minimize food waste by encouraging users to utilize ingredients they already have. [cite: 74, 85]
+**Resource Efficiency:** Helps minimize food waste by encouraging users to utilize ingredients they already have.
 
-[cite_start]**Extensible Design:** Built to integrate into web apps or voice-based assistants. [cite: 56]
+**Extensible Design:** Built to integrate into web apps or voice-based assistants.
 
 ---
 
@@ -45,15 +45,15 @@ An intelligent and user-friendly system that suggests recipes based on the ingre
 
 The system follows a simple, yet effective methodology:
 
-[cite_start]**Dataset Collection:** A recipe dataset is loaded, containing information like recipe names, ingredients, directions, and ratings. [cite: 48, 110, 70]
+**Dataset Collection:** A recipe dataset is loaded, containing information like recipe names, ingredients, directions, and ratings.
 
-[cite_start]**Data Preprocessing:** Clean null values, standardize ingredient names, and tokenize ingredient lists for comparison. [cite: 50, 114, 115, 116]
+**Data Preprocessing:** Clean null values, standardize ingredient names, and tokenize ingredient lists for comparison.
 
 **Ingredient Matching:** Compare the user's ingredients against the recipe dataset.
 
-[cite_start]**Ranking:** Identify and rank recipes by the number/quality of matched ingredients. [cite: 51, 52]
+**Ranking:** Identify and rank recipes by the number/quality of matched ingredients.
 
-[cite_start]**Display:** Show the top-ranked recipes with details and step-by-step instructions. [cite: 53, 171]
+**Display:** Show the top-ranked recipes with details and step-by-step instructions.
 
 ---
 
@@ -113,7 +113,7 @@ Top Matches (k=5)
    - Serve warm
 ```
 
-
+---
 
 ## 🔮 Future Enhancements
 
@@ -133,4 +133,3 @@ Top Matches (k=5)
 * Team: **Bharath JR, Darshan L, Monik, Rithish**
 
 ---
-
