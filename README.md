@@ -115,34 +115,7 @@ Top Matches (k=5)
    - Serve warm
 ```
 
-**API/Web Example (concept):**
 
-* POST `/recommend` with payload `{ "ingredients": ["tomato", "onion", "garlic"] }`
-* Returns a JSON array of recipes with `match_score`, `ingredients`, and `directions`.
-
----
-
-## 🗂 Project Structure
-
-```
-recipe-generator/
-├─ data/
-│  └─ recipes.csv
-├─ app.py
-├─ recommender/
-│  ├─ __init__.py
-│  ├─ preprocess.py      # cleaning & tokenization
-│  ├─ similarity.py      # set/fuzzy similarity, scoring
-│  └─ rank.py            # top-k retrieval
-├─ api/
-│  └─ server.py          # optional FastAPI/Flask server
-├─ notebooks/
-│  └─ EDA.ipynb
-├─ requirements.txt
-└─ README.md
-```
-
----
 
 ## 🔮 Future Enhancements
 
@@ -163,4 +136,3 @@ recipe-generator/
 
 ---
 
-> **Note on Citations:** The placeholders like `[cite_start] ... [cite: 58]` are included for your report cross-references. Replace them with actual references or remove them for a clean README.
