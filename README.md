@@ -10,8 +10,6 @@ An intelligent and user-friendly system that suggests recipes based on the ingre
 * [Key Features](#-key-features)
 * [How It Works](#️-how-it-works)
 * [Getting Started](#-getting-started)
-* [Usage](#-usage)
-* [Project Structure](#-project-structure)
 * [Future Enhancements](#-future-enhancements)
 * [Acknowledgments](#-acknowledgments)
 
